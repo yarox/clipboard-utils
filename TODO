@@ -1,0 +1,16 @@
+# TODO
+
+* Por hacer
++ En curso
+- Terminado
+
+
+* Reordenar el código para que sea más fácil añadir nuevas
+  funcionalidades.
+
+* Ponerlo en forma de applet, para que sea más cómodo de usar.
+
+* ¿Empaquetarlo?
+
+* Eliminar, en lo posible, los valores "harcoded" y sustituirlos por
+  variables en un fichero de configuración (o algo así).
