@@ -1,0 +1,36 @@
+# README
+
+* CLIPBOARD-UTILS 
+Perform some useful actions on your clipboard contents. 
+
+The idea is that you select some text, and instantly, you have some action processed on that selection; ie. translation, dictionary, etc.
+
+
+* IN THIS RELEASE
+By now, it only acts as a translator. More features to come.
+
+
+* HARDWARE AND SOFTWARE REQUIREMENTS
+Gnome based desktop, and Python 2.6.5, with:
+  gtk,
+  glib,
+  urllib,
+  json.
+     
+Tested on Ubuntu 10.04 i686.
+
+
+* INSTALLATION
+Access the "clipboard-utils" folder and execute "python   playwords.py", and you'll have translation capabilities from english to spanish.
+
+
+* GETTING STARTED
+Edit the file "playword.py", and change the variables "LANG_FROM" and "LANG_TO" in order to have diferent translations.
+
+  
+* CAVEATS
+To end the program, you have to kill it directly. 
+  
+When you select some text in Google Chrome, it doesn't wait untill you release the mouse button; instead, it tries to translate each letter it encounters. 
+
+It just has the translation feature.
